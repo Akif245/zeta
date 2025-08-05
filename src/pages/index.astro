@@ -20,6 +20,7 @@ import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
 import { partnersData } from "@/data_files/constants";
 
+
 const avatarSrcs: Array<string> = [
   "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
   "https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
@@ -35,23 +36,20 @@ const avatarSrcs: Array<string> = [
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-white-500 dark:text-white-400">Digiem</span>`
-  
-    subTitle="Top-quality Software tools and expert Deployment services for every project need."
-    primaryBtn="Start Exploring"
-    primaryBtnURL="/solutions"
-    secondaryBtn="Contact Sales Team"
-    secondaryBtnURL="/contact"
-    withReview={true}
-    avatars={avatarSrcs}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
-    src={heroImage}
-    alt="Stack of Digiem product boxes containing assorted Software tools"
-    
-  />
+  title=`Equip Your Projects with <span class="text-white-500 dark:text-white-400">Digiem</span>`
+  subTitle="Top-quality Software tools and expert Deployment services for every project need."
+  primaryBtn="Start Exploring"
+  primaryBtnURL="/solutions"
+  secondaryBtn="Contact Sales Team"
+  secondaryBtnURL="/contact"
+  withReview={true}
+  avatars={avatarSrcs}
+  rating=`<span class="font-bold">4.8</span> / 5`
+  starCount={4}
+  reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+/>
+
+
 
   <ClientsSection
     title="Trusted by Industry Leaders"
